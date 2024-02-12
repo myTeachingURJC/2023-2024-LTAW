@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Ejecutar nodejs",
+            "program": "${file}",
+            "request": "launch",
+            "type": "node"
+        },
+    ]
+}
