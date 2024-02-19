@@ -4,7 +4,9 @@
             "name": "Ejecutar nodejs",
             "program": "${file}",
             "request": "launch",
-            "type": "node"
+            "type": "node",
+            //-- Arrancar desde el directorio donde esta el ejemplo
+            "cwd": "${workspaceFolder}/${relativeFileDirname}"
         }
     ]
 }
