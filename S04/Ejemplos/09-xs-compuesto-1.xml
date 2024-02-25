@@ -2,7 +2,7 @@
 
 <tienda
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="02-xs-compuesto-1.xsd">
+    xsi:noNamespaceSchemaLocation="09-xs-compuesto-1.xsd">
     
 <producto>
     Este es un producto
