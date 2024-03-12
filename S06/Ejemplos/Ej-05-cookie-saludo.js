@@ -46,7 +46,13 @@ const server = http.createServer((req, res) => {
       console.log("user: " + user);
       content = EJ5_HTML.replace("HTML_EXTRA", "<h2>Usuario: " + user + "</h2>");
     }
+    else {
+      console.log("No user....")
+    }
 
+  }
+  else {
+    console.log("No cookie....")
   }
 
   //-- Enviar la respuesta

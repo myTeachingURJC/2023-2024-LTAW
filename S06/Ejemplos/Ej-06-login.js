@@ -56,7 +56,7 @@ const server = http.createServer((req, res) => {
   let content_type = "text/html";
   let content = EJ6_HTML.replace("HTML_EXTRA","");
 
-  //-- Obtener le usuario que ha accedido
+  //-- Obtener el usuario que ha accedido
   //-- null si no se ha reconocido
   let user = get_user(req);
 
