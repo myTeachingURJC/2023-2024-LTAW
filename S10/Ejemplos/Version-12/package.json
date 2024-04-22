@@ -23,8 +23,7 @@
             "category": "Utility"
         }
     },
-    "devDependencies": {
-        "electron": "^18.0.1",
-        "electron-builder": "^22.14.13"
+    "dependencies": {
+        "electron": "^30.0.1"
     }
 }
